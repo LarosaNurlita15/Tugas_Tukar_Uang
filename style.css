@@ -1,0 +1,38 @@
+body {
+    font-family:'Gill Sans', sans-serif;
+    text-align: center;
+    background-image: url('background_blue.jpg'); /* Ganti 'background.jpg' dengan nama file background Anda */
+    background-size: cover;
+    background-repeat: no-repeat; /* background yg ditampilkan akan berulang atau hanya sekali */
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 200px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang transparan */
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+button:hover {
+    background-color: gold;
+}
+
+#hasil {
+    margin-top: 30px;
+}

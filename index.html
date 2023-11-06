@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Tukar Uang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Tukar Uang</h1>
+        <label for="uangInput">Masukkan nilai uang (kelipatan 25):</label>
+        <input type="number" id="uangInput" min="25" step="25">
+        <button onclick="hitungTukaran()">Hitung</button>
+        <div id="hasil"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
